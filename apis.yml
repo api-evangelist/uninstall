@@ -1,7 +1,24 @@
 aid: uninstall
+accessModel:
+  pricing: unknown
+  onboarding: unknown
+  trial: false
+  try_now: false
+  public: false
+  label: Unknown
+  confidence: low
+  source: []
+  generated: '2026-07-22'
+  method: derived
+image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/icons/uninstall.png
 name: Uninstall
-description: Uninstall is a company surfaced as a portfolio company of 500-global and added to the API
-  Evangelist network as a stub for enrichment. This profile is a lead awaiting the enrichment pipeline.
+description: Uninstall.io was a mobile "uninstall intelligence" platform built by Songline
+  Analytics (Bengaluru/Singapore, founded 2015) whose iOS and Android SDKs tracked app
+  uninstalls, surfaced uninstall reasons, and drove re-install campaigns for customers like
+  Snapdeal, Axis Bank, Zalora, and BankBazaar. Backed by 500 Startups India, Rajan Anandan,
+  and Hive Data, it was acquired by Singapore healthtech company Mobile Health in July 2018.
+  The uninstall.io domain is now parked for sale and no public API surface remains; the
+  GitHub organization and first-party mobile SDKs survive as the public footprint.
 url: https://raw.githubusercontent.com/api-evangelist/uninstall/refs/heads/main/apis.yml
 x-type: company
 x-source: vc-portfolio
@@ -9,11 +26,20 @@ x-backed-by:
 - 500-global
 x-tier: stub
 x-tier-reason: portfolio-lead
+x-status: defunct
+x-status-note: Acquired by Mobile Health (Singapore) July 2018; uninstall.io domain parked
+  for sale as of 2026-07-21 (HTTPS unreachable, HTTP 200 GoDaddy sale lander).
 specificationVersion: '0.20'
 created: '2026-07-17'
-modified: '2026-07-17'
+modified: '2026-07-21'
 tags:
 - Company
+- Mobile Analytics
+- Uninstall Tracking
+- Mobile Apps
+- SDK
+- Analytics
+- Defunct
 apis: []
 maintainers:
 - FN: Kin Lane
@@ -23,3 +49,16 @@ maintainers:
 common:
 - type: Website
   url: https://uninstall.io
+- type: GitHubOrganization
+  url: https://github.com/uninstallio
+- type: Packages
+  url: packages/uninstall-packages.yml
+- type: SDKs
+  url: packages/uninstall-packages.yml
+- type: LLMsTxt
+  url: llms/uninstall-llms.txt
+x-enrichment:
+  date: '2026-07-21'
+  status: enriched
+  artifacts_added: 2
+  pass: local-v1

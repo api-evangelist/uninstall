@@ -1,0 +1,26 @@
+generated: '2026-07-21'
+method: searched
+source: https://cocoapods.org/pods/Uninstall
+note: >-
+  Uninstall.io (Songline Analytics) was acquired by Mobile Health in July 2018 and the
+  uninstall.io domain is now parked for sale. These first-party mobile SDKs remain
+  published but have not been updated since 2016; the Android gradle coordinate was
+  distributed via the now-retired JCenter and the GitHub jar is the surviving install path.
+packages:
+  - language: objective-c
+    registry: cocoapods
+    name: Uninstall
+    version: 1.1.6
+    url: https://cocoapods.org/pods/Uninstall
+    install: pod 'Uninstall', '~> 1.1'
+    repository: https://github.com/uninstallio/ios-sdk
+    official: true
+    last_release: 2015-09
+  - language: java
+    registry: github
+    name: com.songline.uninstall:app
+    url: https://github.com/uninstallio/android-sdk
+    install: "compile 'com.songline.uninstall:app:12.3.+'  # JCenter-era coordinate; jar via GitHub archive"
+    repository: https://github.com/uninstallio/android-sdk
+    official: true
+    last_release: 2016-12
