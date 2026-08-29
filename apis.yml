@@ -31,6 +31,9 @@ description: Uninstall.io was a mobile "uninstall intelligence" platform built b
   The uninstall.io domain is now parked for sale and no public API surface remains; the
   GitHub organization and first-party mobile SDKs survive as the public footprint.
 url: https://raw.githubusercontent.com/api-evangelist/uninstall/refs/heads/main/apis.yml
+x-api-posture: no-product-api
+x-api-posture-basis: observed
+x-api-posture-note: "The uninstall.io domain is now parked for sale and no public API surface remains; the GitHub organization and first-party mobile SDKs survive as the public footprint."
 x-type: company
 x-source: vc-portfolio
 x-backed-by:
